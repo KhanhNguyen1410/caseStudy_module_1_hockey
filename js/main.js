@@ -79,8 +79,8 @@ function win() {
     if (score1 >= SCORE_WIN) {
         clearInterval(startGame);
         notification.showPlayer1Win(ctx);
-    }
-    else if (score2 >= SCORE_WIN){
+
+    } else if (score2 >= SCORE_WIN) {
         clearInterval(startGame);
         notification.showPlayer2Win(ctx);
     }
@@ -105,12 +105,7 @@ function gameStart() {
 }
 
 function start() {
-    notification.instruction();
-    if (confirm("Các bạn đã sẵn sàng chưa")){
-        gameStart();
-    } else {
-        reset();
-    }
+    gameStart();
 
 }
 

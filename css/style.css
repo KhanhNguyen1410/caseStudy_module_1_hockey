@@ -1,6 +1,6 @@
 #myCanvas{
     background: forestgreen;
-    margin-left: 370px;
+    margin-left: 170px;
 }
 #background{
 background-image: url("https://c.wallhere.com/photos/48/6f/Barcelona_FC_Barcelona_stadium_Camp_Nou-172887.jpg!d")
@@ -31,5 +31,14 @@ background-image: url("https://c.wallhere.com/photos/48/6f/Barcelona_FC_Barcelon
 }
 #music{
     color: yellow;
+
+}
+#instruction{
+    border: solid white;
+    width: 200px;
+    height: 400px;
+    float: left;
+    color: yellow;
+    text-align: center;
 
 }
